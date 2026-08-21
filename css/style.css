@@ -3,3 +3,56 @@ h4 {
     color: blueviolet;
     font-size: 80px;
 }
+
+.heading6 {
+    font-size: 50px;
+    color: blue;
+    background-color: black;
+}
+
+.para1 {
+    color: green;
+}
+
+.class1 {
+    color: yellow;
+}
+
+.class2 {
+    background-color: blueviolet
+}
+
+.class3 {
+    text-align: center;
+}
+
+.t_uppercase {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.t_lowercase {
+    text-transform: lowercase;
+    text-decoration: overline;
+}
+
+.t_capitalize {
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+
+.cl1 {
+    text-decoration: line-through overline underline;
+}
+
+div {
+    background-color: aqua;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+}
+
+#shadow_ex1 {
+    color: green;
+    text-shadow: 5px 10px 2px red;
+}
