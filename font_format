@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <style>
+        .f_family1{
+            font-family: cursive;
+            color: blue;
+        
+        }
+        .f_family2{
+            font-family: fantasy;
+            color: brown;
+
+        }
+        .f_family3{
+            font-family: monospace;
+            color: aqua;
+        }
+        .f_family4{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: magenta;
+        }
+        .f_weight{
+            font-weight: 800;
+            font-size: 40px;
+            font-style: oblique;
+            font-variant: small-caps;
+        }
+    </style>
+</head>
+<body>
+    <p class="f_weight">An english paragraph is a group of sentences that share one main idea. It normally starts with a clear topic sentence, uses supporting sentences to add details or examples, and ends with a closing sentence. Most users on Quora agree that a strong paragraph stays focused on a single point to help readers understand the</p>
+    <h1 class="f_family1">welcome shantanu and virat</h1>
+    <h1 class="f_family2">welcome shantanu and virat</h1>
+    <h1 class="f_family3">welcome shantanu and virat</h1>
+     <h1 class="f_family4">welcome shantanu and virat</h1>
+
+</body>
+</html>
