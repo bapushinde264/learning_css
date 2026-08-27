@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            width: 200px;
+            padding: 14px;
+            list-style-type:none;
+            font-weight: 900px;
+        }
+
+        li{
+            padding: 10px;
+            border: 2px solid red;
+            margin-bottom: 5px;
+            border-radius: 10px;
+        }
+
+        /* .odd{
+            background-color:aqua
+        }
+        .even{
+            background-color:yellow;
+        } */
+
+        li:nth-child(odd){
+            background-color:aqua;
+        }
+
+        li:nth-child(even){
+             background-color:yellow;
+        }
+
+        li:nth-child(3){
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="odd">Item 1</li>
+        <li class="even">Item 2</li>
+        <li class="odd">Item 3</li>
+        <li class="even">Item 4</li>
+        <li class="odd">Item 5</li>
+        <li class="even">Item 6</li>
+        <li class="odd">Item 7</li>
+        <li class="even">Item 8</li>
+    </ul>
+</body>
+</html>
