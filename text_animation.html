@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text-container{
+            display:flex;
+            justify-content: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 60px;
+            font-weight: 900;
+            letter-spacing: 4px;
+            perspective: 80px;
+        }
+        .text-container >b {
+            height: 70px;
+            box-shadow: 0px 20px 5px gray;
+            background:linear-gradient(to right, red, green,blue,yellow);
+            background-clip: text;
+            color: transparent;
+            transform-origin: bottom;
+            animation: getupDown  10s infinite;
+        }
+        
+        .text-container>b:nth-child(1){animation-delay: 0s;}
+         .text-container>b:nth-child(2){animation-delay: 0.25s;}
+          .text-container>b:nth-child(3){animation-delay: 0.50s;}
+           .text-container>b:nth-child(4){animation-delay: 0.75s;}
+
+        @keyframes getupDown{
+            from{ tranform: rotateX(-850deg);}
+            10%,50%{ tranform: rotateX(0);}
+            60%,to{ tranform: rotateX(-85);}
+        }
+    </style>
+</head>
+<body>
+    <div class="text-container">
+    <b>B</b><b>A</b><b>P</b><b>U</b>
+    </div>
+</body>
+</html>
